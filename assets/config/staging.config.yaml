@@ -1,0 +1,22 @@
+app:
+  name: 'MFAF'
+  conponent-name: 'core-language-domain-service'
+  desscription: 'core-language-domain-service'
+  version: '1.0'
+
+log:
+  debug: 'debug'
+
+nanoid:
+  alphanum: '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+  len: 11
+
+kafka:
+  client:
+    client-id: 'core-language-domain-service'
+    ssl: true
+  consumer:
+    group-id: 'core-language-domain-service-grp'
+    allowAutoTopicCreation: true
+
+services:
